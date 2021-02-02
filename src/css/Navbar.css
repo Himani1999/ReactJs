@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.pic{
+    height: 600px;
+    width: 750px;
+    margin-top: 35px;
+    margin-left: 50px;
+    opacity: 0.4;
+}
+h2 { 
+    position: absolute; 
+    top: 200px; 
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(49, 49, 49); 
+    width: 100%; 
+    font-size: 100px;
+ }
+.first{
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.Second{
+    background-color: white;
+    height: 657px;
+}
+.user{
+    margin-top: 170px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.name{
+    /* border-top: thin; */
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 300px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-width:0 ;
+    border-bottom-width: thin;
+    font-size: 20px;
+}
+.name:focus{
+    outline: none;
+}
+.pass{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.word{
+    /* border-top: thin; */
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 300px;
+    font-size: 20px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-width:0 ;
+    border-bottom-width: thin;
+}
+.word:focus{
+    outline: none;
+}
+.login{
+    background-color: skyblue;
+    border: none;
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 307px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login:hover{
+    background-color: rgb(148, 176, 177);
+    color: white;
+}
+.signin{
+    background-color: skyblue;
+    border: none;
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 307px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.signin:hover{
+    background-color: rgb(240, 82, 82);
+    color: white;
+}
+.third{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+}
+
+.fourth{
+    background-color: skyblue;
+    font-size: 40px;
+}
+.fifth{
+    background-color: honeydew;
+}
+.sixth{
+    background-color: lavender;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
