@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <div id="div1" class="jj hhf df">
+     hello Project
+    </div>
+    <button id="btn" onclick="changeValue()">Change</button>
+    
+    <script>
+        var value = document.getElementById("div1").innerHTML;
+        console.log(value);
+
+        function changeValue(){
+            document.getElementById("div1").innerHTML = "<div>haua</div>";
+        }
+    </script>
+</body>
+</html>
+
+<!-- const document = {
+    div:{
+        id:"div1",
+        innerHTML:"Hello Project"
+        className = ["jj","hhf"]
+
+    },
+    button:"cchange"
+} -->
