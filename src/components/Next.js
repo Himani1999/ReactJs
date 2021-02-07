@@ -25,7 +25,12 @@ import React from 'react';
 // }
 
 
-
+// <div>
+//   <ul>
+//     <li></li>
+//       ul>li.item$@-*10    // for creating 10 lists having different classname
+//   </ul>
+// </div>
 
 class Next extends React.Component {
     constructor() {

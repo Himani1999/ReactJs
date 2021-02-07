@@ -19,7 +19,8 @@ class Navbar extends React.Component{
                     <div className="pass">Enter Password</div>
                     <input className="word" type="password"></input>
                     <div><button className="login" onClick={() => alert('You are Successfully Logged in !')}>
-                        LOGIN</button></div>
+                        LOGIN</button>
+                        </div>
                     <div><button className="login" onClick={() => alert('You are Successfully Logged in !')}>
                         LOGIN</button></div>
                     <div><button className="signin" onClick={signIn}>SIGN UP</button></div>
